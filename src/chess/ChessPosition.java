@@ -10,7 +10,7 @@ public class ChessPosition {
 	
 	public ChessPosition(char column, int row) {
 		if (column < 'a' || column > 'h') {
-			throw new ChessException("Coluna deve ser de A até H");
+			throw new ChessException("Coluna deve ser de a até h");
 		}
 		
 		if (row < 0 || row > 8) {
